@@ -1,0 +1,7 @@
+FROM apache/spark:3.5.1-python3
+
+USER root
+
+RUN pip install pandas==2.0.3
+
+USER spark

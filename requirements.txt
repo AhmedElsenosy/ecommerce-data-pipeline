@@ -1,0 +1,4 @@
+apache-airflow-providers-apache-spark==4.11.1
+pyspark==3.5.1
+hdfs==2.7.3
+pandas==2.2.2

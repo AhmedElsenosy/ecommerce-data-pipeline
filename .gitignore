@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Airflow logs
+logs/
+
+# Docker volumes
+plugins/
+
+# Data files (too large for GitHub)
+data/*.csv
+
+# OS files
+.DS_Store
