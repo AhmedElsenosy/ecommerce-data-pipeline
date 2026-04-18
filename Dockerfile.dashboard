@@ -1,0 +1,16 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    streamlit==1.37.0 \
+    pandas==2.2.2 \
+    pyarrow==16.1.0 \
+    hdfs==2.7.3 \
+    plotly==5.22.0
+
+COPY dashboard/ /app/
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
