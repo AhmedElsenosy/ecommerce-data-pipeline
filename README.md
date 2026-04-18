@@ -396,13 +396,3 @@ docker compose down -v
 ```
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  Built with ❤️ using Spark + HDFS + Airflow + Streamlit
-</p>
